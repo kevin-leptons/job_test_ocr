@@ -15,6 +15,7 @@ USAGE
 =====
 
     $ poetry shell
-    $ poetry install
+    $ poetry install  # installing could be very slow
+    $ mkdir tmp
     $ python main.py --output tmp/out --input sample/001.jpg
     $ python main.py --output tmp/out --input sample/004.png --verbose
