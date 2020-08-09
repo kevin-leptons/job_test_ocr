@@ -1,0 +1,20 @@
+DESCRIPTIONS
+============
+
+Implement for a test, refer to file "requirement.pdf" for details.
+
+REQUIREMENTS
+============
+
+* libtesseract-dev, v4
+* tesseract-ocr, libleptonica-dev, pkg-config follow libtesseract.
+* Python, v2 or v3
+* poetry, v1.0.10
+
+USAGE
+=====
+
+    $ poetry shell
+    $ poetry install
+    $ python main.py --output tmp/out --input sample/001.jpg
+    $ python main.py --output tmp/out --input sample/004.png --verbose
